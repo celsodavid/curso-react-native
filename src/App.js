@@ -1,7 +1,6 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default function () {
-  const jsx = <Text>Primeiro Componente!</Text>
-  return jsx
+export default () => {
+  return <Text>Primeiro Componente!!</Text>
 }
