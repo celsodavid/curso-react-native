@@ -1,8 +1,8 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-function App() {
-  const jsx = <Text>Primeiro Componente 2</Text>
+const App = function () {
+  const jsx = <Text>Primeiro Componente !</Text>
   return jsx
 }
 
